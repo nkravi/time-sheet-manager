@@ -21,8 +21,9 @@ An application to manage time sheet of employees
 
 ### system components
 
-User - [userId,ProjectIds,RoleIds,...]
-Project - [ProjectId,ProjectOwnerIds,...]
-TimeSheet- [timeSheetId,ProjectId,userId,timeSheetStatus,date,...]
-Notification- [eventId,eventDescription,TriggerCondition,...]
-Roles - [roleId,resourceAccess,...]
+* User - [userId,ProjectIds,RoleIds,...]
+* Project - [ProjectId,ProjectOwnerIds,...]
+* TimeSheet- [timeSheetId,ProjectId,userId,timeSheetStatus,date,...]
+* Notification- [eventId,eventDescription,TriggerCondition,...]
+* Roles - [roleId,resourceAccess,...]
+* Analytics- [batchId,batchExec,frequency,outFormats,...]
