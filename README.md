@@ -23,7 +23,7 @@ An application to manage time sheet of employees
 
 * User - [userId,ProjectIds,RoleIds,...]
 * Project - [ProjectId,ProjectOwnerIds,...]
-* TimeSheet- [timeSheetId,ProjectId,userId,createrId,timeSheetStatus,StartTime,endTime,totalHours...]
+* TimeSheet- [timeSheetId,ProjectId,userId,createrId,timeSheetStatus,StartTime,endTime,totalHours,hoursUsed...]
 * Notification- [eventId,eventDescription,TriggerCondition,...]
 * Roles - [roleId,resourceAccess,...]
 * Analytics- [batchId,batchExec,frequency,outFormats,...]
